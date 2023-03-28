@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin: 20px 0px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.body {
+  font-size: 30px;
+  font-weight: 800;
+  background: linear-gradient(#f34e4e, #b9d217);
+  color: white;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body span {
+  transition: transform 0.4s ease-in-out;
+}
+
+.body span:hover {
+  transform: translateY(-15px);
+}
